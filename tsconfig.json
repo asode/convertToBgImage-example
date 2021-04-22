@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "moduleResolution": "node",
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "skipLibCheck": false,
+      "strict": true,
+      "noFallthroughCasesInSwitch": true,
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "noEmit": true,
+      "jsx": "preserve",
+      "paths": {
+        "@reach/router/*": ["./node_modules/@gatsbyjs/reach-router/*"]
+      }
+    },
+    "exclude": ["peril/*", "examples/*"]
+  }
