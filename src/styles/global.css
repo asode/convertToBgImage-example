@@ -1,0 +1,11 @@
+.background {
+    height: 100vh;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
