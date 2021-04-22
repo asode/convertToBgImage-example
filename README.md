@@ -1,12 +1,12 @@
 # convertToBgImage-example
-Reproduction case for [convertToBgImage typescript error](https://github.com/timhagn/gatsby-background-image/issues/155) which happened on version < 0.14 of [gbimage-bridge (gatsby-background-image)](https://github.com/timhagn/gatsby-background-image)
+Reproduction case for [convertToBgImage TypeScript error](https://github.com/timhagn/gatsby-background-image/issues/155) which happened on version < 0.14 of [gbimage-bridge (gatsby-background-image)](https://github.com/timhagn/gatsby-background-image)
 
 ## How to run
 ```
 git clone https://github.com/asode/convertToBgImage-example.git
 cd convertToBgImage-example/
 npm install
-npx tsc --noEmit
+npx tsc
 ```
 This should print the following:
 ```
